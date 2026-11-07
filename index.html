@@ -1,10 +1,10 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index,follow">
-  <title>Tintei Privacy Policy</title>
+  <title>Política de Privacidade do Tintei</title>
   <style>
     :root { --bg:#f4f1ea; --surface:#ffffff; --ink:#1d1b16; --muted:#6b665c; --accent:#0f766e; --border:#ddd7c8; --warn:#fff4d6; }
     @media (prefers-color-scheme: dark) { :root { --bg:#171613; --surface:#211f1b; --ink:#f1ede4; --muted:#a39d8f; --accent:#2dd4bf; --border:#3a362e; --warn:#3d3316; } }
@@ -20,59 +20,90 @@
     a { color: var(--accent); }
     .meta { color: var(--muted); font-size: .9rem; }
     .lang { float: right; font-size: .9rem; }
-    .todo { background: var(--warn); border-radius: 4px; padding: 0 4px; font-weight: 600; }
     .box { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 12px 16px; }
+    table { border-collapse: collapse; width: 100%; font-size: .92rem; background: var(--surface); }
+    th, td { border: 1px solid var(--border); padding: 6px 8px; text-align: left; vertical-align: top; }
+    th { background: var(--bg); }
+    nav.foot { margin-top: 2.5em; color: var(--muted); font-size: .9rem; }
   </style>
 </head>
 <body>
 <main>
-  <a class="lang" href="../" hreflang="pt-BR" lang="pt-BR">Português</a>
-  <header><svg width="44" height="44" viewBox="0 0 100 100" role="img" aria-label="Tintei"><rect width="100" height="100" rx="24" fill="#0f766e"/><rect x="24" y="24" width="52" height="13" rx="6.5" fill="#fff"/><rect x="43.5" y="24" width="13" height="42" rx="6.5" fill="#fff"/><path d="M50 62 C50 62 38.5 73.5 38.5 80 a11.5 11.5 0 0 0 23 0 C61.5 73.5 50 62 50 62Z" fill="#99f6e4"/></svg><h1>Tintei Privacy Policy</h1></header>
-  <p class="meta">Effective October 14, 2026 · Version 1</p>
+  <a class="lang" href="en/" hreflang="en" lang="en">English</a>
+  <header><svg width="44" height="44" viewBox="0 0 100 100" role="img" aria-label="Tintei"><rect width="100" height="100" rx="24" fill="#0f766e"/><rect x="24" y="24" width="52" height="13" rx="6.5" fill="#fff"/><rect x="43.5" y="24" width="13" height="42" rx="6.5" fill="#fff"/><path d="M50 62 C50 62 38.5 73.5 38.5 80 a11.5 11.5 0 0 0 23 0 C61.5 73.5 50 62 50 62Z" fill="#99f6e4"/></svg><h1>Política de Privacidade do Tintei</h1></header>
+  <p class="meta">Atualizada em 7 de novembro de 2026 · Versão 2</p>
 
-  <p><strong>Summary:</strong> Tintei does not collect personal data. Your PDFs are opened, edited and saved <strong>on your device</strong>. There are no accounts, ads, trackers or usage analytics, and no document is sent to Tintei servers (Tintei has no server).</p>
+  <p><strong>Resumo:</strong> por padrão o Tintei trabalha <strong>só no seu aparelho</strong>: seus PDFs são abertos, editados e salvos aí, sem conta, sem anúncios e sem rastreadores. O Tintei tem duas funções online que <strong>só funcionam se você as usar</strong>: <strong>compartilhar por link</strong> (envia uma cópia do PDF ao nosso servidor) e <strong>perguntar aos documentos com IA</strong> (envia a pergunta e trechos do texto ao nosso servidor e à Anthropic). Esta política explica exatamente o que sai do aparelho nesses casos.</p>
 
-  <h2>1. Who we are</h2>
-  <p>Tintei is a free PDF editor. Responsible party: Robert Souza Santana. Privacy contact: <a href="mailto:neuroflow.api@gmail.com">neuroflow.api@gmail.com</a>.</p>
+  <h2>1. Quem somos</h2>
+  <p>O Tintei é um editor de PDF gratuito. Responsável: Robert Souza Santana. Contato sobre privacidade: <a href="mailto:neuroflow.api@gmail.com">neuroflow.api@gmail.com</a>.</p>
 
-  <h2>2. What happens to your files</h2>
+  <h2>2. O que fica só no seu aparelho</h2>
   <ul>
-    <li>The PDFs you open are read and processed <strong>only on your device</strong>, by the app itself.</li>
-    <li>None of your documents' content is sent to Tintei or to third parties.</li>
-    <li>When you tap "Download PDF", the file is handed to your system's share sheet (to save to Files, send in a message, etc.). Where it goes is your choice.</li>
+    <li>Abrir, editar texto, anotar, assinar, organizar páginas, juntar, dividir, criar PDF, comparar, proteger com senha e o reconhecimento de texto (OCR) acontecem <strong>no seu aparelho</strong>, pelo próprio aplicativo. O conteúdo dos documentos não é enviado a ninguém nessas funções.</li>
+    <li>Ao tocar em "Baixar PDF", o arquivo é entregue ao menu de compartilhar do seu sistema. O destino é escolha sua.</li>
+    <li><strong>Guardado no aparelho:</strong> preferências (tema, zoom, final do nome dos arquivos), até 3 assinaturas desenhadas (como traços), a lista dos links que você criou (com o código para apagá-los), um identificador aleatório do aparelho (veja o item 5) e o aceite dos avisos de compartilhar e de IA. Desinstalar o aplicativo apaga tudo isso.</li>
   </ul>
 
-  <h2>3. What is stored on your device</h2>
-  <ul>
-    <li><strong>Preferences:</strong> theme, initial zoom and the suffix added to downloaded file names.</li>
-    <li><strong>Signatures:</strong> up to 3 signatures you drew, stored as strokes (not as a photo).</li>
-  </ul>
-  <p>This data stays on your device only. You can delete signatures in Settings, and uninstalling the app removes everything.</p>
-
-  <h2>4. App updates (third-party service)</h2>
+  <h2>3. Compartilhar por link (opcional)</h2>
   <div class="box">
-    <p>The installed app contacts the <strong>Expo (EAS Update)</strong> update service to check for and download new versions of the app's code. In doing so, the service receives technical data common to any connection, such as <strong>IP address, platform (Android or iOS) and app version</strong>. <strong>No documents or personal content are sent.</strong></p>
-    <p>That technical data is handled under Expo's privacy policy: <a href="https://expo.dev/privacy" rel="noopener">expo.dev/privacy</a>.</p>
+    <p>Quando você toca em <strong>Criar link</strong>, o Tintei envia <strong>uma cópia do PDF</strong> (com as edições já aplicadas, até 25 MB) para o nosso armazenamento, hospedado na <strong>Vercel</strong> (Vercel Blob), e registra o link no nosso banco de dados, hospedado na <strong>Neon</strong> (Postgres, região de São Paulo, na infraestrutura da Amazon Web Services).</p>
   </div>
-
-  <h2>5. What we don't do</h2>
   <ul>
-    <li>We don't ask for sign-up, email, phone number or location.</li>
-    <li>We don't use ads, trackers, analytics cookies or metrics tools.</li>
-    <li>We don't sell or share personal data.</li>
+    <li><strong>Quem pode ver:</strong> qualquer pessoa que tenha o link. O código do link é aleatório e longo, mas quem o recebe pode abrir o documento e repassá-lo. Não use o recurso para documentos que não deseja que outras pessoas leiam. O arquivo não é criptografado de ponta a ponta no servidor.</li>
+    <li><strong>Por quanto tempo:</strong> você escolhe 1, 7 ou 30 dias. Depois disso o link deixa de abrir e uma limpeza diária apaga o arquivo e os registros (em até cerca de 24 horas após o vencimento). Você pode apagar o link antes, a qualquer momento, em "Compartilhar por link" no aplicativo.</li>
+    <li><strong>Comentários:</strong> se você deixar ligado, quem abrir o link pode comentar sem conta, informando um nome à escolha da pessoa, o texto e o ponto do documento. <strong>Os comentários são visíveis para qualquer pessoa com o link</strong> e são apagados junto com o link.</li>
+    <li><strong>O que o servidor guarda:</strong> o arquivo; o nome do arquivo, o tamanho e as datas; o código do link e o código de exclusão <strong>apenas como hash</strong> (uma "impressão digital" irreversível, com um segredo do servidor); os comentários (nome informado, texto, página, posição e data); e, para limitar abuso, um <strong>hash</strong> do identificador do aparelho e um <strong>hash</strong> do endereço IP de quem criou o link, comentou ou denunciou. Não guardamos o endereço IP em texto nos nossos registros.</li>
+    <li><strong>Denúncias:</strong> quem abre o link pode denunciar o documento ou um comentário (motivo em texto livre). Denúncias de três pessoas diferentes tiram o item do ar até a revisão. Quando há denúncia, o responsável pelo Tintei pode abrir o arquivo denunciado para avaliar.</li>
+    <li>Os provedores (Vercel e Neon) também tratam registros técnicos de conexão (como endereço IP) para operar a infraestrutura, conforme as políticas deles.</li>
   </ul>
 
-  <h2>6. Drawn signatures</h2>
-  <p>Tintei's signature is an image drawn on the document. <strong>It is not a digital signature with a certificate</strong> and may not carry the same legal weight as a qualified digital signature. Check that the recipient accepts this kind of signature.</p>
+  <h2>4. Perguntar aos documentos com IA (opcional)</h2>
+  <div class="box">
+    <p>Quando você faz uma pergunta, o Tintei escolhe <strong>no aparelho</strong> os trechos mais relevantes dos documentos do espaço e envia ao nosso servidor <strong>a pergunta, esses trechos e as últimas mensagens da conversa</strong>. O servidor repassa isso ao serviço de IA da <strong>Anthropic</strong> (Estados Unidos) apenas para gerar a resposta e as citações.</p>
+  </div>
+  <ul>
+    <li><strong>O Tintei não guarda</strong> suas perguntas, os trechos nem as respostas. O servidor mantém só um contador de uso (por hash do aparelho e por dia) para aplicar o limite de perguntas.</li>
+    <li>O tratamento feito pela Anthropic segue a política e os termos dela: <a href="https://www.anthropic.com/legal/privacy" rel="noopener">anthropic.com/legal/privacy</a>.</li>
+    <li>A resposta é gerada por IA e <strong>pode conter erros</strong>: confira nas fontes (documento e página) que o Tintei mostra.</li>
+    <li>Não envie documentos com dados que você não pode compartilhar com esses serviços.</li>
+  </ul>
 
-  <h2>7. Children</h2>
-  <p>Tintei does not collect data from anyone, including children, and is not specifically directed at minors.</p>
+  <h2>5. Identificador do aparelho</h2>
+  <p>O aplicativo cria um <strong>código aleatório</strong> neste aparelho (não é um identificador de publicidade, não está ligado a você e não é o número do aparelho). Ele é enviado ao nosso servidor ao compartilhar ou perguntar à IA, e o servidor o guarda <strong>só como hash</strong>, para limitar abuso (por exemplo, 20 links e 20 perguntas por dia). Os contadores de limite são apagados após alguns dias.</p>
 
-  <h2>8. Your rights</h2>
-  <p>Because we don't collect personal data, we hold none of yours to access, correct or delete. You can still write to <a href="mailto:neuroflow.api@gmail.com">neuroflow.api@gmail.com</a> with any question or request about this policy or applicable privacy law (including Brazil's LGPD, Law No. 13,709/2018, and the GDPR).</p>
+  <h2>6. Outros serviços de terceiros</h2>
+  <ul>
+    <li><strong>Atualizações do aplicativo (Expo / EAS Update):</strong> o aplicativo consulta o serviço da Expo para baixar versões novas do código; ele recebe dados técnicos comuns de conexão (endereço IP, plataforma e versão do aplicativo), nunca documentos. Política: <a href="https://expo.dev/privacy" rel="noopener">expo.dev/privacy</a>.</li>
+    <li><strong>Arquivos do reconhecimento de texto (OCR):</strong> na primeira vez, o aplicativo baixa do nosso servidor (Vercel) o motor e os arquivos de idioma, que ficam guardados no aparelho. Só esses arquivos são baixados; <strong>o conteúdo do documento não sai do aparelho no OCR</strong>.</li>
+  </ul>
 
-  <h2>9. Changes to this policy</h2>
-  <p>If Tintei begins handling data differently (for example, with an optional online feature), this policy will be updated first and the effective date above will change. The latest version is always on this page.</p>
+  <h2>7. Transferência para outros países</h2>
+  <p>Vercel e Anthropic operam nos Estados Unidos. Ao usar o compartilhamento ou a IA, dados que você escolheu enviar são tratados fora do Brasil, com base no seu consentimento e nas garantias contratuais desses provedores (LGPD, art. 33).</p>
+
+  <h2>8. Base legal e finalidades</h2>
+  <p>Tratamos os dados <strong>mediante o seu consentimento</strong> (você escolhe criar um link ou fazer uma pergunta e aceita o aviso antes) e, para os registros de limite e denúncias, no <strong>legítimo interesse</strong> de manter o serviço seguro e livre de abuso. Não usamos os dados para publicidade, perfis ou venda.</p>
+
+  <h2>9. O que não fazemos</h2>
+  <ul>
+    <li>Não pedimos cadastro, e-mail, telefone nem localização.</li>
+    <li>Não usamos anúncios, rastreadores, cookies de análise ou ferramentas de métricas. A página do destinatário do link não usa cookies; só guarda no navegador, se a pessoa comentar, o nome digitado, para preencher da próxima vez.</li>
+    <li>Não vendemos nem compartilhamos dados pessoais com terceiros para fins próprios deles.</li>
+  </ul>
+
+  <h2>10. Assinaturas desenhadas</h2>
+  <p>A assinatura do Tintei é uma imagem desenhada no documento. <strong>Não é uma assinatura digital com certificado</strong> e pode não ter o mesmo valor jurídico de uma assinatura digital qualificada. Verifique se o destinatário aceita esse tipo de assinatura.</p>
+
+  <h2>11. Crianças</h2>
+  <p>O Tintei não é direcionado a crianças. As funções online (compartilhar e IA) são destinadas a maiores de 13 anos; menores devem usá-las com acompanhamento de um responsável.</p>
+
+  <h2>12. Seus direitos (LGPD)</h2>
+  <p>Você pode, a qualquer momento: apagar seus links no aplicativo; pedir informação, correção ou exclusão dos dados que tratamos. Como guardamos códigos em hash, para localizar algo precisamos do <strong>link do documento</strong>: escreva para <a href="mailto:neuroflow.api@gmail.com">neuroflow.api@gmail.com</a> informando o link. Também atendemos pedidos de remoção de conteúdo que viole direitos (veja os <a href="termos/">Termos de uso</a>). Você tem ainda o direito de reclamar à Autoridade Nacional de Proteção de Dados (ANPD).</p>
+
+  <h2>13. Mudanças nesta política</h2>
+  <p>Se o Tintei mudar a forma de tratar dados, esta política será atualizada antes e a data acima mudará. A versão mais recente fica sempre nesta página.</p>
+
+  <nav class="foot"><a href="termos/">Termos de uso</a></nav>
 </main>
 </body>
 </html>
