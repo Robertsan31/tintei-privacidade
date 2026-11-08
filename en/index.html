@@ -31,9 +31,9 @@
 <main>
   <a class="lang" href="../" hreflang="pt-BR" lang="pt-BR">Português</a>
   <header><svg width="44" height="44" viewBox="0 0 100 100" role="img" aria-label="Tintei"><rect width="100" height="100" rx="24" fill="#0f766e"/><rect x="24" y="24" width="52" height="13" rx="6.5" fill="#fff"/><rect x="43.5" y="24" width="13" height="42" rx="6.5" fill="#fff"/><path d="M50 62 C50 62 38.5 73.5 38.5 80 a11.5 11.5 0 0 0 23 0 C61.5 73.5 50 62 50 62Z" fill="#99f6e4"/></svg><h1>Tintei Privacy Policy</h1></header>
-  <p class="meta">Updated November 7, 2026 · Version 2</p>
+  <p class="meta">Updated November 8, 2026 · Version 3</p>
 
-  <p><strong>Summary:</strong> by default Tintei works <strong>only on your device</strong>: your PDFs are opened, edited and saved there, with no account, ads or trackers. Tintei has two online features that <strong>only work if you use them</strong>: <strong>share by link</strong> (uploads a copy of the PDF to our server) and <strong>ask your documents with AI</strong> (sends the question and text excerpts to our server and to Anthropic). This policy explains exactly what leaves your device in those cases.</p>
+  <p><strong>Summary:</strong> by default Tintei works <strong>only on your device</strong>: your PDFs are opened, edited and saved there, with no account, ads or trackers. Tintei has one online feature that <strong>only works if you use it</strong>: <strong>share by link</strong> (uploads a copy of the PDF to our server). This policy explains exactly what leaves your device in that case.</p>
 
   <h2>1. Who we are</h2>
   <p>Tintei is a free PDF editor. Responsible party: Robert Souza Santana. Privacy contact: <a href="mailto:neuroflow.api@gmail.com">neuroflow.api@gmail.com</a>.</p>
@@ -42,7 +42,7 @@
   <ul>
     <li>Opening, editing text, annotating, signing, organizing pages, merging, splitting, creating PDFs, comparing, password protection and text recognition (OCR) happen <strong>on your device</strong>, inside the app. Your documents' content is not sent to anyone by these features.</li>
     <li>When you tap "Download PDF", the file is handed to your system's share sheet. Where it goes is your choice.</li>
-    <li><strong>Stored on the device:</strong> preferences (theme, zoom, file-name suffix), up to 3 drawn signatures (as strokes), the list of links you created (with the code to delete them), a random device identifier (see section 5) and your acceptance of the sharing and AI notices. Uninstalling the app removes all of it.</li>
+    <li><strong>Stored on the device:</strong> preferences (theme, zoom, file-name suffix), up to 3 drawn signatures (as strokes), the list of links you created (with the code to delete them), a random device identifier (see section 4) and your acceptance of the sharing notice. Uninstalling the app removes all of it.</li>
   </ul>
 
   <h2>3. Share by link (optional)</h2>
@@ -58,49 +58,38 @@
     <li>The providers (Vercel and Neon) also process technical connection logs (such as IP addresses) to run their infrastructure, under their own policies.</li>
   </ul>
 
-  <h2>4. Ask your documents with AI (optional)</h2>
-  <div class="box">
-    <p>When you ask a question, Tintei picks <strong>on your device</strong> the most relevant excerpts from the documents in the space and sends our server <strong>the question, those excerpts and the last messages of the conversation</strong>. The server forwards them to <strong>Anthropic</strong>'s AI service (United States) only to generate the answer and its citations.</p>
-  </div>
-  <ul>
-    <li><strong>Tintei does not store</strong> your questions, the excerpts or the answers. The server keeps only a usage counter (by device hash and per day) to enforce the question limit.</li>
-    <li>Anthropic's processing follows its own policy and terms: <a href="https://www.anthropic.com/legal/privacy" rel="noopener">anthropic.com/legal/privacy</a>.</li>
-    <li>The answer is AI-generated and <strong>may contain errors</strong>: check the sources (document and page) that Tintei shows.</li>
-    <li>Don't send documents with data you are not allowed to share with these services.</li>
-  </ul>
+  <h2>4. Device identifier</h2>
+  <p>The app creates a <strong>random code</strong> on this device (it is not an advertising ID, is not linked to you and is not the device's serial number). It is sent to our server when you share, and the server keeps it <strong>only as a hash</strong>, to limit abuse (for example, 20 links per day). The limit counters are deleted after a few days.</p>
 
-  <h2>5. Device identifier</h2>
-  <p>The app creates a <strong>random code</strong> on this device (it is not an advertising ID, is not linked to you and is not the device's serial number). It is sent to our server when you share or ask the AI, and the server keeps it <strong>only as a hash</strong>, to limit abuse (for example, 20 links and 20 questions per day). The limit counters are deleted after a few days.</p>
-
-  <h2>6. Other third-party services</h2>
+  <h2>5. Other third-party services</h2>
   <ul>
     <li><strong>App updates (Expo / EAS Update):</strong> the app contacts Expo's service to download new versions of the code; it receives technical connection data (IP address, platform and app version), never documents. Policy: <a href="https://expo.dev/privacy" rel="noopener">expo.dev/privacy</a>.</li>
     <li><strong>Text recognition (OCR) files:</strong> the first time, the app downloads the engine and language files from our server (Vercel); they are kept on the device. Only those files are downloaded; <strong>your document's content never leaves the device for OCR</strong>.</li>
   </ul>
 
-  <h2>7. Transfers to other countries</h2>
-  <p>Vercel and Anthropic operate in the United States. When you use sharing or AI, the data you chose to send is processed outside Brazil, based on your consent and those providers' contractual safeguards.</p>
+  <h2>6. Transfers to other countries</h2>
+  <p>Vercel operates in the United States. When you use sharing, the data you chose to send is processed outside Brazil, based on your consent and that provider's contractual safeguards.</p>
 
-  <h2>8. Legal basis and purposes</h2>
-  <p>We process data <strong>with your consent</strong> (you choose to create a link or ask a question and accept the notice first) and, for rate-limit records and reports, under our <strong>legitimate interest</strong> in keeping the service safe and free of abuse. We don't use data for advertising, profiling or sale.</p>
+  <h2>7. Legal basis and purposes</h2>
+  <p>We process data <strong>with your consent</strong> (you choose to create a link and accept the notice first) and, for rate-limit records and reports, under our <strong>legitimate interest</strong> in keeping the service safe and free of abuse. We don't use data for advertising, profiling or sale.</p>
 
-  <h2>9. What we don't do</h2>
+  <h2>8. What we don't do</h2>
   <ul>
     <li>We don't ask for sign-up, email, phone number or location.</li>
     <li>We don't use ads, trackers, analytics cookies or metrics tools. The recipient's link page doesn't use cookies; it only keeps in the browser, if the person comments, the name they typed, to prefill next time.</li>
     <li>We don't sell personal data or share it with third parties for their own purposes.</li>
   </ul>
 
-  <h2>10. Drawn signatures</h2>
+  <h2>9. Drawn signatures</h2>
   <p>Tintei's signature is an image drawn on the document. <strong>It is not a digital signature with a certificate</strong> and may not carry the same legal weight as a qualified digital signature. Check that the recipient accepts this kind of signature.</p>
 
-  <h2>11. Children</h2>
-  <p>Tintei is not directed at children. The online features (sharing and AI) are for people aged 13 and over; minors should use them with a guardian's supervision.</p>
+  <h2>10. Children</h2>
+  <p>Tintei is not directed at children. The online feature (share by link) is for people aged 13 and over; minors should use it with a guardian's supervision.</p>
 
-  <h2>12. Your rights</h2>
+  <h2>11. Your rights</h2>
   <p>At any time you can delete your links in the app, and ask for information, correction or deletion of the data we process. Because we store codes as hashes, to find anything we need the <strong>document link</strong>: write to <a href="mailto:neuroflow.api@gmail.com">neuroflow.api@gmail.com</a> with the link. We also handle requests to remove content that infringes rights (see the <a href="termos/">Terms of Use</a>). You may also complain to your data protection authority (in Brazil, the ANPD).</p>
 
-  <h2>13. Changes to this policy</h2>
+  <h2>12. Changes to this policy</h2>
   <p>If Tintei changes how it handles data, this policy will be updated first and the date above will change. The latest version is always on this page.</p>
 
   <nav class="foot"><a href="termos/">Terms of Use</a></nav>
